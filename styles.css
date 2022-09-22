@@ -1,0 +1,122 @@
+* {
+    box-sizing: borde;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 640px;
+    height: 800px;
+    background-color: #F2E99C;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    position: relative;
+    -webkit-box-shadow: inset -6px 3px 68px 17px rgba(212, 194, 89, 1);
+    -moz-box-shadow: inset -6px 3px 68px 17px rgba(212, 194, 89, 1);
+    box-shadow: inset -6px 3px 68px 17px rgba(212, 194, 89, 1);
+
+}
+
+figure {
+    width: 540px;
+    height: 440px;
+    background-color: #9FD6CF;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+figure img {
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+
+}
+
+figure:hover img {
+    transform: scale(1.1);
+}
+
+nav {
+    /* background-color: red; */
+    width: 430px;
+    height: 75px;
+    /* margin: auto; */
+    position: absolute;
+    top: 450px;
+    left: 110px;
+
+
+}
+
+nav ul {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: white;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 8px 28px 14px -17px rgba(105, 95, 38, 0.58);
+    -moz-box-shadow: 8px 28px 14px -17px rgba(105, 95, 38, 0.58);
+    box-shadow: 8px 28px 14px -17px rgba(105, 95, 38, 0.58);
+}
+
+.info {
+    width: 400px;
+    height: auto;
+    /* background-color: green; */
+    margin: auto;
+    margin-top: 70px;
+}
+
+.info p:nth-child(1) {
+    color: #C62E2E;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info p:nth-child(2) {
+    margin-top: 20px;
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.category {
+    width: 50px;
+    height: 50px;
+    background-color: #C4B230;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
